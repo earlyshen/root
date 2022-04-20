@@ -1,0 +1,159 @@
+{
+  "App": {
+    "NavTitle": "茂林法則 (第五版)",
+    "NavTitleShort": "茂林法則 (第五版)",
+    "RootPrefix": "茂林法則",
+    "SearchPlaceholder": "搜尋 茂林法則",
+    "Titles": {
+      "Search": "搜尋 茂林法則",
+      "FAQ": "常見問答",
+      "Reach": "設置選擇器",
+      "Map": "地圖產生器",
+      "Random": "隨機設置",
+      "DraftPlusOne": "+1 Draft",
+      "AdSet": "進階設置"
+    }
+  },
+  "Modal": {
+    "FAQ": {
+      "Title": "常見問答",
+      "TitleShort": "FAQ",
+      "CloseButton": "關閉",
+      "Law": "Law",
+      "Q": "Q",
+      "A": "A"
+    },
+    "Reach": {
+      "Title": "Reach Calculator",
+      "TitleShort": "Reach",
+      "CloseButton": "關閉",
+      "Choose": "Choose New Factions",
+      "DraftPlusOne": "Draft +1",
+      "Error": "Unable to select factions; please adjust selections and try again.",
+      "Factions": {
+        "Marquise de Cat": "貓咪貴族",
+        "Lord of the Hundreds": "Lord of the Hundreds",
+        "Keepers in Iron": "Keepers in Iron",
+        "Underground Duchy": "鼴鼠地國",
+        "Eyrie Dynasties": "飛鷹王朝",
+        "Vagabond (#1)": "神秘遊俠 (#1)",
+        "Riverfolk Company": "河岸商會",
+        "Woodland Alliance": "森林聯盟",
+        "Corvid Conspiracy": "陰謀黨羽",
+        "Vagabond (#2)": "神秘遊俠 (#2)",
+        "Lizard Cult": "蜥蜴神教"
+      },
+      "FactionsShort": {
+        "Marquise": "Marquise",
+        "Hundreds": "Hundreds",
+        "Keepers": "Keepers",
+        "Duchy": "Duchy",
+        "Eyrie": "Eyrie",
+        "Vagabond #1": "Vagabond #1",
+        "Riverfolk": "Riverfolk",
+        "Woodland": "Woodland",
+        "Corvids": "Corvids",
+        "Vagabond #2": "Vagabond #2",
+        "Cult": "Lizards"
+      },
+      "Draft": {
+        "Players": {
+          "Player A": "Player A",
+          "Player B": "Player B",
+          "Player C": "Player C",
+          "Player D": "Player D",
+          "Player E": "Player E",
+          "Player F": "Player F"
+        },
+        "Headers": {
+          "Factions": "Factions",
+          "TurnDraftOrder": "Turn/Draft Order",
+          "Faction": "Faction",
+          "Reach": "Reach",
+          "Draft": "Draft",
+          "Player": "Player",
+          "Cards": "Cards",
+          "Picks": "Picks",
+          "Turn": "Turn"
+        },
+        "Text": {
+          "Deck": "Deck",
+          "Map": "Map",
+          "Choose": "Choose Map, then choose Deck. Pick 3 cards and return the rest to the deck."
+        }
+      },
+      "Adset": {
+        "Random": "Random",
+        "Random1": "Random (1)",
+        "Random2": "Random (2)",
+        "Generate": "Generate",
+        "None": "None",
+        "Waiting": "Waiting for random generation...",
+        "Players": "Players",
+        "Choices": {
+          "Map": "Map Choice",
+          "Deck": "Deck Choice",
+          "Players": "Player Count",
+          "Landmarks": "Landmarks",
+          "Hirelings": "Valid Hirelings",
+          "Factions": "Valid Factions",
+          "RemindDrawFive": "Reminder: Deal 5 cards to each player."
+        },
+        "Deck": {
+          "Standard": "Standard Deck",
+          "EP": "Exiles & Partisans"
+        },
+        "Landmarks": {
+          "ElderTreetop": "Elder Treetop",
+          "LostCity": "Lost City",
+          "BlackMarket": "Black Market",
+          "LegendaryForge": "Legendary Forge",
+          "TheFerry": "The Ferry",
+          "TheTower": "The Tower"
+        },
+        "Hirelings": {
+          "Spring Uprising (R)": "Spring Uprising (R)",
+          "Forest Patrol (R)": "Forest Patrol (R)",
+          "Last Dynasty (R)": "Last Dynasty (R)",
+          "The Outcast (R)": "The Outcast (R)",
+          "Woodland Band (R)": "Woodland Band (R)",
+          "Furious Protector (R)": "Furious Protector (R)",
+          "Highway Bandits (R)": "Highway Bandits (R)",
+          "Riverfolk Flotilla (R)": "Riverfolk Flotilla (R)",
+          "Warm Sun Prophets (R)": "Warm Sun Prophets (R)",
+          "Sunward Expedition (R)": "Sunward Expedition (R)",
+          "Corvid Spies (R)": "Corvid Spies (R)",
+          "Flame Bearers (R)": "Flame Bearers (R)",
+          "Vault Keepers (R)": "Vault Keepers (R)",
+          "Rabbit Scouts (D)": "Rabbit Scouts (D)",
+          "Feline Physicians (D)": "Feline Physicians (D)",
+          "Bluebird Nobles (D)": "Bluebird Nobles (D)",
+          "The Brigand (D)": "The Brigand (D)",
+          "Traveling Band (D)": "Traveling Band (D)",
+          "Stoic Protector (D)": "Stoic Protector (D)",
+          "Bandit Guild (D)": "Bandit Guild (D)",
+          "Otter Divers (D)": "Otter Divers (D)",
+          "Lizard Envoys (D)": "Lizard Envoys (D)",
+          "Mole Artisans (D)": "Mole Artisans (D)",
+          "Raven Guards (D)": "Raven Guards (D)",
+          "Rat Ravagers (D)": "Rat Ravagers (D)",
+          "Badger Bodyguards (D)": "Badger Bodyguards (D)"
+        }
+      }
+    },
+    "Maps": {
+      "Title": "Map Randomizer",
+      "TitleShort": "Map",
+      "CloseButton": "Close",
+      "MapNames": {
+        "fall": "Fall",
+        "winter": "Winter",
+        "lake": "Lake",
+        "mountain": "Mountain"
+      },
+      "Randomize": "Randomize",
+      "Balanced": "Balanced",
+      "Error": "Attempted to find a balanced layout; but could not. Try again! It might work this time."
+    }
+  }
+}

@@ -8,10 +8,12 @@ import { Subject } from 'rxjs';
 
 import * as enUSRules from '../assets/i18n/rules/en-US.json';
 import * as esESRules from '../assets/i18n/rules/es-ES.json';
+import * as zhTWRules from '../assets/i18n/rules/zh-TW.json';
 
 const rules = {
   'en-US': (enUSRules as any).default || enUSRules,
   'es-ES': (esESRules as any).default || esESRules,
+  'zh-TW': (zhTWRules as any).default || zhTWRules,
 };
 
 @Injectable({

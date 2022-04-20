@@ -17,10 +17,12 @@ import { FormsModule } from '@angular/forms';
 
 import * as enUS from '../assets/i18n/en-US.json';
 import * as esES from '../assets/i18n/es-ES.json';
+import * as zhTW from '../assets/i18n/zh-TW.json';
 
 const langs = {
   'en-US': (enUS as any).default || enUS,
   'es-ES': (esES as any).default || esES,
+  'zh-TW': (zhTW as any).default || zhTW,
 };
 
 export class JSONLoader implements TranslateLoader {
