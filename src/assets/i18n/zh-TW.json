@@ -19,17 +19,17 @@
       "Title": "常見問答",
       "TitleShort": "FAQ",
       "CloseButton": "關閉",
-      "Law": "Law",
+      "Law": "法條",
       "Q": "Q",
       "A": "A"
     },
     "Reach": {
-      "Title": "Reach Calculator",
-      "TitleShort": "Reach",
+      "Title": "影響距離計算器",
+      "TitleShort": "影響距離",
       "CloseButton": "關閉",
-      "Choose": "Choose New Factions",
+      "Choose": "選擇新陣營",
       "DraftPlusOne": "Draft +1",
-      "Error": "Unable to select factions; please adjust selections and try again.",
+      "Error": "無法選擇陣營，請挑整選擇並重試一遍",
       "Factions": {
         "Marquise de Cat": "貓咪貴族",
         "Lord of the Hundreds": "Lord of the Hundreds",
@@ -39,69 +39,69 @@
         "Vagabond (#1)": "神秘遊俠 (#1)",
         "Riverfolk Company": "河岸商會",
         "Woodland Alliance": "森林聯盟",
-        "Corvid Conspiracy": "陰謀黨羽",
+        "Corvid Conspiracy": "陰謀羽黨",
         "Vagabond (#2)": "神秘遊俠 (#2)",
         "Lizard Cult": "蜥蜴神教"
       },
       "FactionsShort": {
-        "Marquise": "Marquise",
+        "Marquise": "貴族",
         "Hundreds": "Hundreds",
         "Keepers": "Keepers",
-        "Duchy": "Duchy",
-        "Eyrie": "Eyrie",
-        "Vagabond #1": "Vagabond #1",
-        "Riverfolk": "Riverfolk",
-        "Woodland": "Woodland",
-        "Corvids": "Corvids",
-        "Vagabond #2": "Vagabond #2",
-        "Cult": "Lizards"
+        "Duchy": "鼴鼠",
+        "Eyrie": "飛鷹",
+        "Vagabond #1": "遊俠 #1",
+        "Riverfolk": "商會",
+        "Woodland": "聯盟",
+        "Corvids": "羽黨",
+        "Vagabond #2": "遊俠 #2",
+        "Cult": "神教"
       },
       "Draft": {
         "Players": {
-          "Player A": "Player A",
-          "Player B": "Player B",
-          "Player C": "Player C",
-          "Player D": "Player D",
-          "Player E": "Player E",
-          "Player F": "Player F"
+          "Player A": "玩家 A",
+          "Player B": "玩家 B",
+          "Player C": "玩家 C",
+          "Player D": "玩家 D",
+          "Player E": "玩家 E",
+          "Player F": "玩家 F"
         },
         "Headers": {
-          "Factions": "Factions",
-          "TurnDraftOrder": "Turn/Draft Order",
-          "Faction": "Faction",
-          "Reach": "Reach",
-          "Draft": "Draft",
-          "Player": "Player",
-          "Cards": "Cards",
-          "Picks": "Picks",
-          "Turn": "Turn"
+          "Factions": "陣營",
+          "TurnDraftOrder": "玩家/設置順序",
+          "Faction": "陣營",
+          "Reach": "影響距離",
+          "Draft": "設置順序",
+          "Player": "玩家",
+          "Cards": "卡牌",
+          "Picks": "負責選擇",
+          "Turn": "玩家順序"
         },
         "Text": {
-          "Deck": "Deck",
-          "Map": "Map",
-          "Choose": "Choose Map, then choose Deck. Pick 3 cards and return the rest to the deck."
+          "Deck": "牌組",
+          "Map": "地圖",
+          "Choose": "選擇地圖，然後選擇牌組。留下三張手牌，剩餘放回牌堆"
         }
       },
       "Adset": {
-        "Random": "Random",
-        "Random1": "Random (1)",
-        "Random2": "Random (2)",
-        "Generate": "Generate",
-        "None": "None",
-        "Waiting": "Waiting for random generation...",
-        "Players": "Players",
+        "Random": "隨機",
+        "Random1": "一個隨機地標",
+        "Random2": "兩個隨機地標",
+        "Generate": "產生設置",
+        "None": "無",
+        "Waiting": "等待隨機生成...",
+        "Players": "玩家",
         "Choices": {
-          "Map": "Map Choice",
-          "Deck": "Deck Choice",
-          "Players": "Player Count",
-          "Landmarks": "Landmarks",
-          "Hirelings": "Valid Hirelings",
-          "Factions": "Valid Factions",
-          "RemindDrawFive": "Reminder: Deal 5 cards to each player."
+          "Map": "選擇地圖",
+          "Deck": "選擇牌組",
+          "Players": "玩家人數",
+          "Landmarks": "選擇地標",
+          "Hirelings": "可選傭兵",
+          "Factions": "可選陣營",
+          "RemindDrawFive": "提醒：發五張卡牌給每一位玩家"
         },
         "Deck": {
-          "Standard": "Standard Deck",
-          "EP": "Exiles & Partisans"
+          "Standard": "標準牌組",
+          "EP": "流放者牌組"
         },
         "Landmarks": {
           "ElderTreetop": "Elder Treetop",
@@ -142,18 +142,18 @@
       }
     },
     "Maps": {
-      "Title": "Map Randomizer",
-      "TitleShort": "Map",
-      "CloseButton": "Close",
+      "Title": "隨機領地生成器",
+      "TitleShort": "地圖",
+      "CloseButton": "關閉",
       "MapNames": {
-        "fall": "Fall",
-        "winter": "Winter",
-        "lake": "Lake",
-        "mountain": "Mountain"
+        "fall": "秋季",
+        "winter": "冬季",
+        "lake": "湖泊",
+        "mountain": "高山"
       },
-      "Randomize": "Randomize",
-      "Balanced": "Balanced",
-      "Error": "Attempted to find a balanced layout; but could not. Try again! It might work this time."
+      "Randomize": "隨機生成",
+      "Balanced": "平均分佈",
+      "Error": "無法找到平衡配置，重試一下應該會成功"
     }
   }
 }
