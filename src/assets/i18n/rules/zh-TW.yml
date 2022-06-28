@@ -1,42 +1,41 @@
 
-- name: Golden Rules
+- name: 金科玉律
   color: "#000000"
-  pretext: This chapter gives answers to technical, detailed questions. You do not need to read it when first learning.
+  pretext: 本章節提供技術性的細節。當第一次學習遊戲時可以先略過。
   children:
-    - name: Rules Conflicts
+    - name: 規則衝突
       children: 
-        - name: Precedence.
-          text: If a card conflicts with the Law, follow the card. If the Learning to Play guide conflicts with the Law, follow the Law. If you follow both a general rule and a faction rule or hireling rule, follow both; if you cannot, follow the faction rule or hireling rule.
-        - name: Use of **Cannot**.
-          plainName: Use of Cannot.
-          text: The term **cannot** is absolute. It cannot be overridden unless explicitly instructed.
+        - name: 優先級。
+          text: 如果《茂林法則》中的規則與卡牌效果發生衝突，則卡牌效果優先。如果《遊戲規則》與《茂林法則》中的規則發生衝突，則《茂林法則》優先。
+        - name: "**不能**的規則含義。"
+          plainName: 不能的規則含義。
+          text: 任何帶有**不能**一詞的規則優先級均為最高。在沒有特殊說明的情況下，這些規則優先於其他所有規則。
         - name: Resolving Simultaneous Things.
           text: If multiple effects or decisions would occur simultaneously, the player taking their turn chooses their order unless the order is explicitly defined. If an effect would remove multiple pieces simultaneously and trigger multiple effects from removing them, remove all the pieces before resolving the effects.
-        - name: Simultaneous Effects.
-          text: If two game effects occur simultaneously, the player taking the current turn chooses their order, unless explicitly instructed.
+        - name: 效果同時觸發。
+          text: 如果有多個效果同時觸發，且沒有規則說明這些效果結算的順序，則由當前回合玩家選擇效果結算的順序。
         - name: Use of **Treat**.
           plainName: Use of Treat.
           text: If you are prompted to **treat** one thing as another, the former takes on all the properties of the latter. _(For example, if you caused Outrage while treating yourself as another player, the other player would give the card.)_
 
-    - name: Public and Private Information
+    - name: 公開與隱藏信息
       children:
-        - name: Hands.
-          text: Players may only show or reveal cards in their hand if explicitly instructed, but the number of cards in their hand is public information. `faction:riverfolk:11.2.3`
-        - name: Discard.
-          text: The discard pile can be searched and inspected at any time.
+        - name: 手牌。
+          text: 玩家只有在受到特定效果影響時，才需要公開或展示手牌。但玩家的手牌數量是公開信息。`faction:riverfolk:11.2.3`
+        - name: 棄牌。
+          text: 所有玩家都可以隨時查看棄牌堆中的卡牌。
           
-    - name: Negotiation and Deals
+    - name: 談判與協議
       children:
-        - name: Agreements.
-          text: Players may discuss the game and make agreements, but they are non-binding.
-        - name: Cards.
-          text: Players may only give cards to each other if explicitly instructed.
+        - name: 約定。
+          text: 玩家在遊戲時可以自由談判，但可以不執行自己承諾的約定。
+        - name: 卡牌。
+          text: 玩家只有在特殊效果要求時，才能給予其他玩家卡牌。
     
-    - name: Game Structure
+    - name: 遊戲框架
       children:
-        - name: Turn Structure.
-          text: > 
-            Each player's turn has three phases: Birdsong, Daylight, and Evening. Anything that says "at start of" a phase happens before everything else in the phase, and anything that says "at end of" happens after everything else in the phase but before the start of the next phase, if any. After a player ends Evening, the next clockwise player begins their turn. Play continues until one player has won the game (`rule:3.1`).
+        - name: 回合框架。
+          text: 每個玩家的回合包括三個階段：清晨、白天和夜晚。在一位玩家完成了他/她的三個階段後，順時針方向下一位玩家開始他/她的回合。玩家輪流進行回合，直到有玩家獲得遊戲勝利為止(`rule:3.1`)。
         - name: Interrupts.
           text: You cannot interrupt an action _(including a compound action such as the Marquise's March)_, ability _(such as the Corvids' Exposure)_, or persistent effect _(such as the Eyrie Emigre card)_ with another effect unless it explicitly allows it. _(For example, the Armorers card says it is used "In battle...")_.
 
@@ -54,48 +53,49 @@
           plainName: Use of Force.
           text: Some effects let you **force** a player or their pieces to act. Resolve this exactly as if that player were choosing to do this, as limited by the effect. _(For example, if you force the Eyrie to move warriors, they benefit from Lords of the Forest.)_
 
-- name: Key Terms and Concepts
+- name: 關鍵詞和概念
   color: "#000000"
   pretext: Terms are defined strictly in the Glossary (`rule:16.6`).
   children:
-    - name: Cards
-      pretext: "You draw cards from the top of the shared deck, and discard to a shared discard pile. If the deck is ever empty, shuffle the discard pile immediately to form a new deck. Each card has a **suit**: bird, fox, rabbit, or mouse. Most cards also have an effect you can craft (`rule:4.1`)."
+    - name: 卡牌
+      pretext: "卡牌共分為四種類型：飛鹰、狐狸、兔子和老鼠，每張卡牌都屬其中一種類型。大部分卡牌都有一個特殊效果，可以通過鍛造來獲得該特殊效果(`rule:4.1`)。"
       children:
-        - name: Birds Are Wild.
-          text: You can treat any bird card as a card of another suit, even if you must spend, take, or give multiple cards of the same suit. `faction:cult:10.2.2`
+        - name: 飛鷹類型可作為百搭類型使用。
+          text: "你可以將飛鹰牌視為其他類型的卡牌來使用。當你需要花費、丢棄、拿取、給予一張或多張相同類型的卡牌時，可以將飛鹰牌與那種類型的卡牌一同使用。`faction:cult:10.2.2`"
           subchildren:
-            - name: Forced Effects.
-              text: If you are prompted to discard or give cards of non-bird suits, you must treat your bird cards as a prompted suit
-            - name: Reverse Substitution.
-              text: If you are prompted to spend, discard, take, or give a bird card, you cannot substitute a card of another suit.
-        - name: Ambush Cards.
-          text: "There are five **ambush cards**: one mouse, one rabbit, one fox, and two birds. You may spend an ambush card for its suit, but it does not have a crafted effect. You may also play one in battle to deal hits (`rule:4.3.1`)."
-        - name: Dominance Cards.
-          text: There are four **dominance cards** matching the four suits. You may spend a dominance card for its suit, but it cannot be crafted. You may also play one to permanently change your victory condition (`rule:3.3`).
+            - name: 強制效果。
+              text: 當你被要求丢棄或給予狐狸、兔子、老鼠牌時，你手中所有飛鹰牌都必須視為該類型的卡牌。
+            - name: 不可逆向替代。
+              text: 當你被要求花費、丢棄、拿取或給予飛鷹牌時，你不能用其他類型的卡牌來代替。
+        - name: 奇襲牌。
+          text: "牌堆中共有5張**奇襲牌**：1張老鼠牌、1張免子牌、1張狐狸牌和2張飛鹰牌。你可以不使用奇襲牌的效果，僅將其作為費用打出。該種卡牌無法被鍛造。你可以在戰門中打出該牌，給對手造成命中(`rule:4.3.1`)。"
+        - name: 特殊勝利牌。
+          text: 牌"堆中共有4張特殊勝利牌，每種類型各1張。你可以不使用特殊勝利牌的效果，僅將其作為費用打出。該種卡牌不能被鍛造。你可以打出該牌來永久改變你的勝利條件（3.3） (`rule:3.3`)。"
 
-    - name: Clearings and Paths
-      pretext: The map of the Woodland is composed of many **clearings** linked by **paths**.
+    - name: 領地和道路
+      pretext: 森林之國由數個**領地**組成，每個領地間由**道路**連接。
       children:
-        - name: Adjacency.
-          text: A clearing is adjacent to all other clearings linked to it by a path. `faction:duchy:12.2.2`
-        - name: Suit.
-          text: Every clearing has a **suit** of mouse, rabbit, or fox.
-        - name: Slots.
-          text: Each clearing has a number of **building slots** _(white boxes)_. Whenever you place a building, it fills an open slot. You cannot place a building in a clearing with no open slots.
-        - name: Ruins.
-          text: Slots marked with a small "R" begin the game filled with **ruins**. Ruins cannot be removed unless explicitly instructed _(such as by the Vagabond's Explore action, `rule:9.5.3`)_.
+        - name: 相鄰。
+          text: "如果兩個領地被一條道路連接，則這兩個領地相鄰。`faction:duchy:12.2.2`"
+        - name: 類型。
+          text: 領地共分為三種**類型**：狐狸、兔子和老鼠，每個領地都屬其中一種類型。
+        - name: 槽。
+          text: "每個領地上都有至少一個白色方框，被稱為**槽**。每個槽上只能建造一個建築。如果一個領地中沒有空槽，那麼你不能在這個領地建造建築。"
+        - name: 遺跡。
+          text: 遊"戲開始時，每個帶有字母“R” 的槽上都會有一個**遺跡**。遺跡只能在特別註明的情況下被移除_(像是遊俠的探索行動`rule:9.5.3`)_。"
     
-    - name: Rivers
-      pretext: Many clearings are linked by **rivers**. _(Rivers are not paths, but can be treated as paths if explicitly instructed. Rivers do not divide clearings or forests.)_ `faction:riverfolk:11.2.2`
+    - name: 河流
+      pretext: "部分領地之間由**河流**相互連接。河岸商會可以使用河流進行移動。河流不會將一個領地或樹林分隔成兩個。Many clearings are linked by **rivers**. _(Rivers are not paths, but can be treated as paths if explicitly instructed. Rivers do not divide clearings or forests.)_ `faction:riverfolk:11.2.2`"
       
-    - name: Forests
-      pretext: Areas on the map enclosed by printed paths and clearings are called **forests**.
+    - name: 樹林
+      pretext: 地圖上被道路和領地包圍的區域稱為**樹林**。
       children:
-        - name: Adjacency.
-          text: A forest is adjacent to all clearings that touch it without crossing a printed path, and it is adjacent to all forests that are separated by only one printed path.
+        - name: 相鄰。
+          text: "一個樹林與其頂點上的每個領地都相鄰。如果兩個樹林共享至少一條邊（道路），則這兩個樹林相鄰。
+          A forest is adjacent to all clearings that touch it without crossing a printed path, and it is adjacent to all forests that are separated by only one printed path."
 
-    - name: Rule
-      pretext: A player **rules** a clearing if they have more total warriors and buildings in it than each other player. _(Tokens and pawns do not contribute to rule.)_ If there is a tie between players in a clearing, no one rules it. `faction:eyrie:7.2.2` `faction:vagabond:9.2.2` `faction:cult:10.2.4`
+    - name: 控制
+      pretext: "一個領地中，士兵和建築總数最多的玩家，是該領地的控制者。計算控制權時，指示物和棋子不算在內。如果一個領地中有多個陣營同為最多，則沒有陣營控制這個領地。`faction:eyrie:7.2.2` `faction:vagabond:9.2.2` `faction:cult:10.2.4`"
 
 - name: Victory
   color: "#000000"
